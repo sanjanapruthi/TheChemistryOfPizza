@@ -1,0 +1,111 @@
+.pepper {
+  position: relative;
+  opacity: 0.81;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.pepper{
+
+}
+img{
+    width:90%;
+    height:90%;
+    display: block;
+    align:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(130,23,23);
+}
+
+span {
+    color: rgb(128,55,55);
+    text-align: center;
+    font-family: Geneva, sans-serif;
+    font-size: 40px;
+
+}
+
+h2{
+    color: rgb(80,80,80);
+    font-family: Geneva, sans-serif;
+    font-size: 20px;
+}
+
+.mySlides{
+    padding: 10px 40px;
+    opacity: 0.8;
+
+}
+
+
+
+#container1 {
+    position: relative;
+
+    padding: 0px 10px;
+}
+
+#container2 {
+    position: relative;
+    float:center;
+
+}
+
+#container3 {
+    padding: 0px 10px;
+    align:center;
+
+}
+
+#container4 {
+    position: relative;
+    float:center;
+    padding: 0px 10px;
+} 
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3{
+    color: rgb(100,100,100);
+    font-family: Geneva, sans-serif;
+    font-size: 13px;
+    float: center;
+}

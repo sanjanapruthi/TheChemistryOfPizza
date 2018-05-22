@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<meta name="description" content="SBHS - Pizza!">
+	<meta name="keywords" content="KEY, WORDS, HERE">
+	<link href = "main.css" rel = "stylesheet">
+
+	<style> 
+		body{
+			background-color: rgb(255, 254, 253);
+		}
+	</style>
+
+	</head>
+	<body> 
+	<div class="pepper">
+	  	<div id="container1">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="history.html">History of Pizza</a></li>
+				<li><a href="dough.html">The Dough</a></li>
+				<li><a href="sauce.html">The Sauce</a></li>
+				<li><a href="cheese.html">The Cheese</a></li>
+				<li><a href="toppings.html">The Toppings</a></li>
+				<li><a href="citations.html">Citations</a></li>
+			</ul>
+		</div>
+		<br><br><br><br><br><br><br><br>
+		<div class="caption">
+			<span class="border">All About Pizza!</span>
+		</div>
+	  </div>
+	</div>
+	</div>
+
+		<div align="center" id="container3">
+			<h2>
+				Everyone loves pizza, but what makes it so delicious? Here we will talk about pizza, the history behind it, and the chemistry of its ingredients.
+			</h2>
+		</div>
+		<div align="center" id="container2">
+			<img class="mySlides" src="homepics/pizza2.jpg"  >
+			<img class="mySlides" src="homepics/pizza3.jpg"  >
+			<img class="mySlides" src="homepics/pizza1.jpeg" >
+			<img class="mySlides" src="homepics/pizza4.jpg"  >
+			<img class="mySlides" src="homepics/pizza5.jpg">
+			<img class="mySlides" src="homepics/pizza6.jpg" >
+
+		</div>
+
+
+
+		
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+		<div align="center" id="container4">
+		<h3> NJ Chemistry Olympics | South Brunswick HS Team A | Cynthia Martucci, Sanjana Pruthi, Sruthi Sudhakar </h3>
+		</div>
+
+	</body>
+</html>
